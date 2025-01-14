@@ -3,11 +3,12 @@ package test_fonctionnel;
 import personnages.Gaulois;
 
 public class TestGaulois {
-	public static void main(String[] args) {
-		Gaulois asterix = new Gaulois ("Astérix",8);
-		System.out.println(asterix.getGaulois());
-		System.out.println(asterix.parler("Bonjour à tous"));
-		
-	}
+    public static void main(String[] args) {
+        Gaulois asterix = new Gaulois("Astï¿½rix", 8);
+        System.out.println(asterix.getGaulois());
+        System.out.println(asterix.parler("Bonjour ï¿½ tous"));
+        Romain minus = new Romain("Minus", 6);
+        System.out.println(asterix.parler(" UN GAUâ€¦ UN GAUGAUâ€¦ "));
+    }
 
 }

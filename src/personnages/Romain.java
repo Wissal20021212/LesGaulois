@@ -11,4 +11,11 @@ public Romain (String name , int force)
 }
 
 public String getRomain
-}
+
+	{
+		return name;
+	}
+
+	public String parler(String texte) {
+		return ("le romain " + getRomain() + " : < " + texte + " > ."  );
+	}
