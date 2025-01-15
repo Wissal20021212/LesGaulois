@@ -22,4 +22,9 @@ public static void main(String[] args) {
 	System.out.println(asterix.getGaulois());
 	
 }
+
+public void frapper(Romain R) {
+	System.out.println(name +" envoie un grand coup dans la mâchoire de " + R.getRomain() +" "+ R.recevoirCoup(force/3) );
+
+}
 }
